@@ -1,4 +1,4 @@
-package synchronization;  //remain 26/11/25
+package synchronization; 
 
 import java.time.Duration;
 
@@ -30,16 +30,10 @@ public class DemoOrangehrm {
 		
 		driver.findElement(By.className("oxd-button")).click();
 		
-		
 		//logout process
 		Thread.sleep(5000);
 		driver.findElement(By.className("oxd-userdropdown-name")).click();
 		driver.findElement(By.linkText("Logout")).click();
-		
-		
-		
-		
-
 	}
-
 }
+
