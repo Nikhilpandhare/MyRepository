@@ -24,7 +24,10 @@ public class DemoName {
 		
 	    driver.findElement(By.name("password")).sendKeys("xyz123");
 				
-	    driver.findElement(By.name("confirm")).sendKeys("xyz123");		
+	    driver.findElement(By.name("confirm")).sendKeys("xyz123");	
+		
 	}
+	
 }
+
 
